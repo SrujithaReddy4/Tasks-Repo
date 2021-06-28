@@ -5,7 +5,7 @@ var asia = a.filter(function (b)
 })
 console.log(asia)
 
----------------------------
+___________________________________________________________________
 
 var pop = a.filter(function (b)
 {
@@ -13,8 +13,7 @@ var pop = a.filter(function (b)
     return b.name
 })
 console.log(pop)
-
-----------------------------
+___________________________________________________________________
 
 
 var cur = a.filter(function (b)
@@ -24,8 +23,7 @@ var cur = a.filter(function (b)
 })
 
 console.log(cur)
-
------------------------------
+___________________________________________________________________
 
 var b = a.map(function (x)
 {
