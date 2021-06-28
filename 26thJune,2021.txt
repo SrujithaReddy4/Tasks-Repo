@@ -1,0 +1,46 @@
+var asia = a.filter(function (b)
+{
+    if(b.region=="Asia")
+    return b.name
+})
+console.log(asia)
+
+---------------------------
+
+var pop = a.filter(function (b)
+{
+    if(b.population<200000)
+    return b.name
+})
+console.log(pop)
+
+----------------------------
+
+
+var cur = a.filter(function (b)
+{
+    if(b.currencies[0].name=="United States dollar")
+    return b.name
+})
+
+console.log(cur)
+
+-----------------------------
+
+var b = a.map(function (x)
+{
+    return x.population
+})
+console.log(b)
+
+var c = b.reduce(function (y,z)
+{
+    return y+z
+},0)
+console.log(c)
+
+-----------------------------
+
+a.forEach(el => console.log(el.name+'-'+el.capital+'-'+el.flag))
+
+
