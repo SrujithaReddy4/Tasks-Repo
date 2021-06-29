@@ -1,0 +1,47 @@
+.pancard {
+  background-color: rgba(245, 245, 135, 0.39);
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.Preclaimer {
+  color: white;
+  background-color: maroon;
+}
+
+/* th {
+  padding: 10px;
+} */
+td {
+  width: 100%;
+}
+.dpdown {
+  background-color: #cccccc;
+}
+.dropdown {
+  width: 900px;
+  background-color: #cccccc;
+}
+.dropdown3 {
+  width: 200px;
+  height: 20px;
+  background-color: rgb(212, 208, 208);
+}
+.desc {
+  background-color: brown;
+}
+.Align {
+  float: right;
+}
+
+input#myfile6 {
+  width: 300px;
+  height: 100px;
+}
+
+.sbutn {
+  padding-left: 662px;
+}
