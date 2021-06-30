@@ -1,23 +1,25 @@
 .pancard {
   background-color: rgba(245, 245, 135, 0.39);
+  width: 100%;
 }
-table,
-th,
-td {
-  border: 1px solid black;
-  border-collapse: collapse;
+* {
+  margin: 0px;
+}
+.asterisk {
+  color: red;
 }
 .Preclaimer {
   color: white;
   background-color: maroon;
+  text-align: center;
+}
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-left: 4px;
 }
 
-/* th {
-  padding: 10px;
-} */
-td {
-  width: 100%;
-}
 .dpdown {
   background-color: #cccccc;
 }
@@ -43,5 +45,5 @@ input#myfile6 {
 }
 
 .sbutn {
-  padding-left: 662px;
+  padding-left: 43%;
 }
